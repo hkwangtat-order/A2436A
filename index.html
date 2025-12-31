@@ -209,11 +209,12 @@
         const fmt=c=>{const p=productMap[c];const n=p?p.name:c;let q=cart[c].toString();if(cartUnits[c]==='kg')q+='K';return ` ${q.padEnd(5,' ')} ${n} (${c})\n`};
         frequentCodes.forEach(c=>{if(cart[c])msg+=fmt(c)});
         for(let c in cart){if(!frequentCodes.includes(c))msg+=fmt(c)}
-        window.open(`https://wa.me/8529794498?text=${encodeURIComponent(msg)}`,'_blank');
+        window.open(`https://wa.me/85297944983?text=${encodeURIComponent(msg)}`,'_blank');
     }
     init();
 </script>
 </body>
 
 </html>
+
 
